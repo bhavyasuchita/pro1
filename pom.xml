@@ -43,9 +43,9 @@
 			</plugin>
 		</plugins>
 	</build>
-<distributionManagement>
-	<repositories>
 
+	<repositories>
+<distributionManagement>
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
@@ -62,8 +62,9 @@
 				<enabled>false</enabled>
 			</releases>
 		</repository>
+</distributionManagement>
 	</repositories>
-<distributionManagement>
+
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-milestones</id>
